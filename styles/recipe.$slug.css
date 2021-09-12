@@ -1,0 +1,20 @@
+.with-mark li {
+  @apply ml-5;
+
+  position: relative;
+}
+
+.with-mark li::before {
+  @apply text-white fill-current w-5 h-5;
+
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  transform: translate(-150%, -50%);
+
+  background-image: url(/icons/check.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

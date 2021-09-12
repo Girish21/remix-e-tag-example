@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --title-xl: clamp(2rem, calc(10vw+1rem), 2.5rem);
+  --title-lg: clamp(1.75rem, calc(8vw+1rem), 2rem);
+}
+
 :focus:not(:focus-visible) {
   outline: none;
 }

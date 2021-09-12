@@ -23,7 +23,7 @@ const Overlay = () => {
     return null
   }
 
-  return <div className='fixed inset-0 bg-white bg-opacity-25' />
+  return <div className='fixed z-50 inset-0 bg-white bg-opacity-25' />
 }
 
 function Document({ children }: { children: React.ReactNode }) {
